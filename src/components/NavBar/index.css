@@ -1,0 +1,95 @@
+.nav-container {
+  background-color: #2c0e3a;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+}
+
+.nav-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.matchGame-img {
+  height: 35px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .matchGame-img {
+    height: 40px;
+    width: 140px;
+  }
+}
+
+.score-time-container {
+  display: flex;
+}
+
+.score-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-text {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+}
+
+.no-text {
+  color: #fec653;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer-img {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-img {
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+  }
+}
+
+.sec-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #fec653;
+}
+
+@media screen and (min-width: 768px) {
+  .sec-text {
+    font-size: 22px;
+  }
+}
